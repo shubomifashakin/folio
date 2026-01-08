@@ -27,9 +27,11 @@ export default function Home() {
           />
         </div>
 
-        <h1>Hi👋, I&apos;m Olashubomi.</h1>
+        <h1 className="text-2xl tracking-tight font-bold">
+          Hi👋, I&apos;m Olashubomi.
+        </h1>
 
-        <div id="about" className="space-y-6">
+        <div id="about" className="space-y-6 text-sm">
           <p>
             I am a software engineer who loves challenges and learning new
             things. I build systems that solve real problems and enjoy exploring
