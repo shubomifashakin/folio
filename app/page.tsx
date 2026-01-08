@@ -12,6 +12,8 @@ import me from "../public/images/me.webp";
 import paytrailIcon from "../public/images/paytrail-icon.webp";
 import githubImg from "../public/images/github.webp";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   return (
     <div className="mx-auto space-y-8 font-sans max-w-2xl px-8 pt-20">
@@ -27,9 +29,11 @@ export default function Home() {
           />
         </div>
 
-        <h1>Hi👋, I&apos;m Olashubomi.</h1>
+        <h1 className="text-2xl tracking-tight font-bold">
+          Hi👋, I&apos;m Olashubomi.
+        </h1>
 
-        <div id="about" className="space-y-6">
+        <div id="about" className="space-y-6 text-sm">
           <p>
             I am a software engineer who loves challenges and learning new
             things. I build systems that solve real problems and enjoy exploring
@@ -134,7 +138,7 @@ export default function Home() {
             <Project
               status="wip"
               name="Null Void"
-              description="Realtime collaborative canvas, (MS Paint but with Figma-inspired features)."
+              description="Realtime collaborative canvas, (Mini-MS Paint but with Figma-inspired features)."
               image={githubImg}
               link="https://github.com/shubomifashakin/Null-Void"
             />
@@ -170,6 +174,7 @@ export default function Home() {
           {new Date().toLocaleTimeString("en-NG", {
             timeStyle: "short",
             hour12: true,
+            timeZone: "Africa/Lagos",
           })}
         </span>
       </footer>
