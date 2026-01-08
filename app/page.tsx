@@ -10,6 +10,7 @@ import TwitterIcon from "./_components/icons/twitter";
 
 import me from "../public/images/me.webp";
 import paytrailIcon from "../public/images/paytrail-icon.webp";
+import githubImg from "../public/images/github.webp";
 
 export default function Home() {
   return (
@@ -134,7 +135,7 @@ export default function Home() {
               status="wip"
               name="Null Void"
               description="Realtime collaborative canvas, (MS Paint but with Figma-inspired features)."
-              image={paytrailIcon}
+              image={githubImg}
               link="https://github.com/shubomifashakin/Null-Void"
             />
 
@@ -150,7 +151,7 @@ export default function Home() {
               status="completed"
               name="Org-Rel Api"
               description="RBAC-powered multi-tenant API built with NestJS."
-              image={paytrailIcon}
+              image={githubImg}
               link="https://github.com/shubomifashakin/org-rel"
             />
           </div>
