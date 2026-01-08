@@ -28,9 +28,9 @@ export default function Project({
     <a
       href={link}
       target="_blank"
-      className="flex gap-x-4 border items-center p-2 rounded-lg hover:bg-white/10 border-white/5 transition-all duration-200 ease-in-out"
+      className="flex gap-x-4 border items-center p-2 rounded-xl hover:bg-white/10 border-white/5 transition-all duration-200 ease-in-out"
     >
-      <div className="border flex-shrink-0 relative border-white/5 rounded-md overflow-hidden size-16">
+      <div className="border flex-shrink-0 relative border-white/5 rounded-lg overflow-hidden size-16">
         <Image src={image} alt={`${name} logo`} fill className="object-cover" />
       </div>
 
@@ -45,7 +45,7 @@ export default function Project({
           </span>
         </div>
 
-        <p className="font-extralight text-foreground/80">{description}</p>
+        <p className="font-medium text-xs text-foreground/80">{description}</p>
       </div>
     </a>
   );

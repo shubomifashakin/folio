@@ -13,7 +13,7 @@ import paytrailIcon from "../public/images/paytrail-icon.webp";
 
 export default function Home() {
   return (
-    <div className="mx-auto font-sans max-w-2xl px-8 pt-20">
+    <div className="mx-auto space-y-8 font-sans max-w-2xl px-8 pt-20">
       <main className="space-y-10">
         <div className="size-20 relative rounded-full border border-white/10 overflow-hidden">
           <Image
@@ -55,31 +55,31 @@ export default function Home() {
         </div>
 
         <div id="contact" className="space-y-4">
-          <h3 className="font-bold text-lg">Contact</h3>
+          <h3 className="font-bold text-sm">Contact</h3>
 
           <div className="flex gap-6 text-sm flex-wrap">
             <Contact
               label="Github"
               href="https://github.com/shubomifashakin"
-              icon={<GithubIcon width={16} height={16} />}
+              icon={<GithubIcon width={14} height={14} />}
             />
 
             <Contact
               label="Twitter"
               href="https://twitter.com/545plea"
-              icon={<TwitterIcon width={16} height={16} />}
+              icon={<TwitterIcon width={14} height={14} />}
             />
 
             <Contact
               label="Mail"
               href="mailto:shubomifashakin@outlook.com"
-              icon={<MailIcon width={16} height={16} />}
+              icon={<MailIcon width={14} height={14} />}
             />
           </div>
         </div>
 
         <div id="skills" className="space-y-4">
-          <h3 className="font-bold text-lg">Skills</h3>
+          <h3 className="font-bold text-sm">Skills</h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6">
             <Skills
@@ -95,12 +95,11 @@ export default function Home() {
                 "NodeJS",
                 "NestJS",
                 "ExpressJS",
-                "TypeScript",
                 "REST",
                 "GraphQL",
                 "PostgreSQL",
-                "DynamoDB",
                 "Redis",
+                "DynamoDB",
                 "SQLite",
               ]}
             />
@@ -128,7 +127,7 @@ export default function Home() {
         </div>
 
         <div id="projects" className="space-y-4">
-          <h3 className="font-bold text-lg">Projects</h3>
+          <h3 className="font-bold text-sm">Projects</h3>
 
           <div className="flex flex-col gap-y-6">
             <Project
@@ -158,15 +157,15 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="py-8 px-6 gap-x-4 justify-center flex text-xs items-center uppercase">
-        <span className="flex items-center gap-2">Lagos, NG</span>
+      <footer className="py-8 px-6 gap-x-4 justify-center border-t border-t-white/10 flex text-xs items-center">
+        <span className="flex items-center gap-2">Lagos, Nigeria</span>
 
         <span className="relative flex h-2 w-2">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
         </span>
 
-        <span>
+        <span className="uppercase">
           {new Date().toLocaleTimeString("en-NG", {
             timeStyle: "short",
             hour12: true,

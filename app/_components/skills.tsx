@@ -12,7 +12,7 @@ export default function Skills({ title, items }: SkillsProps) {
         {items.map((item) => (
           <span
             key={item}
-            className="bg-white/5 px-4 py-2 rounded-full hover:bg-white/10 transition-all duration-300 flex items-center gap-x-2 text-xs"
+            className="bg-white/5 font-bold px-4 py-2 rounded-full hover:bg-white/10 transition-all duration-300 flex items-center gap-x-2 text-xs"
           >
             {item}
           </span>
