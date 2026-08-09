@@ -68,14 +68,16 @@ export default function Home() {
           </div>
         </div>
 
-        <p className="text-sm text-foreground/70 leading-relaxed">
-          I am primarily interested in backend and systems engineering but I
-          dabble in frontend and mobile development from time to time. Lately,
-          I&apos;ve been getting more into DevOps and infrastructure engineering
-          with a strong interest in self-hosting.
+        <p id="about" className="text-sm text-foreground/70 leading-relaxed">
+          I am primarily interested in backend and systems engineering, with
+          security as a core part of how I think about building. I dabble in
+          frontend and mobile development from time to time and lately I&apos;ve
+          been getting more into DevOps and infrastructure engineering.
+          Self-hosting, in particular, has pushed me to care even more about the
+          security of the systems I run.
         </p>
 
-        <div>
+        <div id="projects">
           <h3 className="font-serif text-xl font-normal mb-4">Projects</h3>
 
           <div className="border-t border-white/10" />
