@@ -31,6 +31,7 @@ const projects = [
     description:
       "AI-powered, offline first budgeting and finance tracking app.",
     link: "https://apps.apple.com/us/app/paytrail/id6755418652",
+    retired: true,
   },
 ];
 
@@ -89,6 +90,7 @@ export default function Home() {
                 name={p.name}
                 description={p.description}
                 link={p.link}
+                retired={p.retired}
               />
             </Fragment>
           ))}
