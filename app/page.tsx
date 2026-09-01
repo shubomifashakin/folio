@@ -4,6 +4,11 @@ import ContactLink from "./_components/contacts";
 
 const projects = [
   {
+    name: "Sysmon",
+    description: "A simple alternative to htop/top written in Go.",
+    link: "https://github.com/shubomifashakin/sysmon",
+  },
+  {
     name: "DevSecOps Pipeline Scaffold",
     description: "A DevSecOps pipeline scaffold skill for Claude Code.",
     link: "https://github.com/shubomifashakin/devsecops-pipeline-scaffold",
