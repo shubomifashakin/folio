@@ -4,9 +4,10 @@ import ContactLink from "./_components/contacts";
 
 const projects = [
   {
-    name: "Sysmon",
-    description: "A simple alternative to htop/top written in Go.",
-    link: "https://github.com/shubomifashakin/sysmon",
+    name: "Nomsys",
+    description:
+      "A terminal based system resource monitor, inspired by htop/top.",
+    link: "https://github.com/shubomifashakin/Nomsys",
   },
   {
     name: "DevSecOps Pipeline Scaffold",
@@ -79,8 +80,6 @@ export default function Home() {
           security as a core part of how I think about building. I dabble in
           frontend and mobile development from time to time and lately I&apos;ve
           been getting more into DevOps and infrastructure engineering.
-          Self-hosting, in particular, has pushed me to care even more about the
-          security of the systems I run.
         </p>
 
         <div id="projects">
